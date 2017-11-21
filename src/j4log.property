@@ -1,0 +1,7 @@
+#J4LOG Default log root folder, note this folder need to exist already
+# for production
+j4log.root=C:/Users/Dequan/Logs/Brightkite
+j4log.root=C:/Users/Dequan/Logs/Library
+# for test
+j4log.root=C:/Users/Dequan/Logs
+j4log.level=info

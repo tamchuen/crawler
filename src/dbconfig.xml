@@ -1,0 +1,55 @@
+<all-config>
+	<!-- Test --> 
+	<!-- 
+	<connection name="gowalla">
+		<type value="Proxool" />
+		<host value="localhost" />
+		<port value="3306" />
+		<user value="root" />
+		<password value="admin" />
+		<db value="test" />
+		<charsetEncoding />
+		<maximum-connection-count value="10" />
+		<maximum-connection-lifetime value="3600000" />
+		<minimum-connection-count value="1" />
+	</connection> 
+	<connection name="brightkite">
+		<type value="Proxool" />
+		<host value="localhost" />
+		<port value="3306" />
+		<user value="root" />
+		<password value="admin" />
+		<db value="bktest" />
+		<charsetEncoding />
+		<maximum-connection-count value="10" />
+		<maximum-connection-lifetime value="3600000" />
+		<minimum-connection-count value="1" />
+	</connection>    -->
+	  
+	<!-- Production -->
+    
+	<connection name="gowalla">
+		<type value="Proxool" />
+		<host value="localhost" />
+		<port value="3306" />
+		<user value="root" />
+		<password value="admin" />
+		<db value="library" />
+		<maximum-connection-count value="10" />
+		<maximum-connection-lifetime value="3600000" />
+		<minimum-connection-count value="1" />
+	</connection>
+	<connection name="brightkite">
+		<type value="Proxool" />
+		<host value="localhost" />
+		<port value="3306" />
+		<user value="root" />
+		<password value="admin" />
+		<db value="brightkite" />
+		<charsetEncoding />
+		<maximum-connection-count value="10" />
+		<maximum-connection-lifetime value="3600000" />
+		<minimum-connection-count value="1" />
+	</connection>   
+	  
+</all-config>
